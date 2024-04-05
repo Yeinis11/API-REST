@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const { createEstadoEquipo, getEstadoEquipo } = require('../controllers/estadoEquipo')
 
-const router = Router()
+const router = Router()  
 
 // crear
 router.post('/', createEstadoEquipo)

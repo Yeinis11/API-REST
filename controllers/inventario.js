@@ -1,4 +1,4 @@
-const Inventario = require('../models/inventario')
+const Inventario = require('../models/inventario')  
 const { request, response} = require('express')
 const Usuario = require('../models/usuario')
 const Marca = require('../models/marca')

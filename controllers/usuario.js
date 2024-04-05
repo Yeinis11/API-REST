@@ -1,5 +1,5 @@
 const usuario = require('../models/usuario')
-const {request, response} = require('express')
+const {request, response} = require('express')  
 
 /**
  * Creación

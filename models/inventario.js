@@ -1,6 +1,6 @@
 const { Schema, model} = require('mongoose')
 
-const InventarioSchema = Schema({
+const InventarioSchema = Schema({ 
     serial: {
         type: String,
         required: [true, 'Serial requerido'],

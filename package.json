@@ -1,5 +1,5 @@
 {
-  "name": "backend-inventarios",
+  "name": "backend-inventarios", 
   "version": "1.0.0",
   "description": "API REST Inventarios",
   "main": "server.js",

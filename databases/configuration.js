@@ -9,7 +9,7 @@ const mongoConn = async () => {
         })
         console.log('Conexión exitosa con Mongo!')
     }catch(e){
-        console.log('Error', e)
+        console.log('Error' e)
         throw new Error('Error de conexión')
     }
 }

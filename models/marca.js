@@ -1,6 +1,6 @@
 const { Schema, model} = require('mongoose')
 
-const MarcaSchema = Schema({
+const MarcaSchema = Schema({ 
     nombre: {
         type: String,
         required: [true, 'Nombre requerido']

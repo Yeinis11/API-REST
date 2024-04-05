@@ -1,6 +1,6 @@
 
 const app = require('./app')
-const { mongoConn } = require('./databases/configuration')
+const { mongoConn } = require('./databases/configuration')  
 const dotenv = require('dotenv').config()
 
 app.set('port', process.env.PORT || 3000)//middleware

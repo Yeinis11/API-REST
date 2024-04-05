@@ -1,4 +1,4 @@
-const marca = require('../models/marca')
+const marca = require('../models/marca')  
 const { request, response} = require('express')
 
 // crear

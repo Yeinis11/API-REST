@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose')
 
-const estadoEquipoSchema = Schema({
+const estadoEquipoSchema = Schema({ 
     nombre: {
         type: String,
         required: [true, 'Nombre requerido']

@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const {createUsuario, getUsuario} = require('../controllers/usuario')
 
-const router = Router()
+const router = Router() 
 
 // crear
 router.post('/', createUsuario)

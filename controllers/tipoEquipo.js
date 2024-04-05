@@ -1,4 +1,4 @@
-const tipoEquipo = require('../models/tipoEquipo')
+const tipoEquipo = require('../models/tipoEquipo')  
 const { request, response } = require('express')
 
 /**

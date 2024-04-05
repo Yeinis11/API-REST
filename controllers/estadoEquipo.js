@@ -1,7 +1,7 @@
 const estadoEquipo = require('../models/estadoEquipo')
 const {request, response} = require('express')
 
-/**
+/*
  * Creación
  */
 const createEstadoEquipo = async (req = request, 
